@@ -204,9 +204,24 @@
     <Compile Include="Migrations\201907260929374_InitialModel.Designer.cs">
       <DependentUpon>201907260929374_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907260953083_CreateGigAndGenreTable.cs" />
+    <Compile Include="Migrations\201907260953083_CreateGigAndGenreTable.Designer.cs">
+      <DependentUpon>201907260953083_CreateGigAndGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907260958085_NewGenre.cs" />
+    <Compile Include="Migrations\201907260958085_NewGenre.Designer.cs">
+      <DependentUpon>201907260958085_NewGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907261105264_OverrideConventionsForGigAndGenre.cs" />
+    <Compile Include="Migrations\201907261105264_OverrideConventionsForGigAndGenre.Designer.cs">
+      <DependentUpon>201907261105264_OverrideConventionsForGigAndGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\AppDbContext.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -290,6 +305,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201907260929374_InitialModel.resx">
       <DependentUpon>201907260929374_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907260953083_CreateGigAndGenreTable.resx">
+      <DependentUpon>201907260953083_CreateGigAndGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907260958085_NewGenre.resx">
+      <DependentUpon>201907260958085_NewGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907261105264_OverrideConventionsForGigAndGenre.resx">
+      <DependentUpon>201907261105264_OverrideConventionsForGigAndGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
