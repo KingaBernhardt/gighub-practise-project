@@ -34,7 +34,7 @@ namespace Gighub.Controllers
             var gig = new Gig()
             {
                 ArtistId = User.Identity.GetUserId(),
-                DateTime = DateTime.Parse(String.Format("{0}, {1}", viewModel.Date, viewModel.Genre)),
+                DateTime = viewModel.DateTime,
                 GenreId = viewModel.Genre,
                 Venue = viewModel.Venue
             };
