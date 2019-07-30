@@ -27,6 +27,21 @@ span.field-validation-error {
     color: red;
     font-weight: bold;
 }
+.voffset {
+    margin-top: 2px;
+}
+.voffset1 {
+    margin-top: 5px;
+}
+.voffset2 {
+    margin-top: 10px;
+}
+.voffset3 {
+    margin-top: 20px;
+}
+.voffset4 {
+    margin-top: 40px;
+}
 
 /*Booptstrap Overrides*/
 
@@ -47,7 +62,7 @@ body {
         color: #fff;
     }
     .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-        background-color: #rgba (205, 40, 39, 0.55);
+        background-color: #fca903;
     }
 
     .navbar-inverse .navbar-nav > .dropdown > a .caret {
@@ -80,9 +95,9 @@ body {
 }
 
 .btn {
-    padding: 7px 20px;
+    /*padding: 7px 20px;*/
     border-radius: 9px;
-    font-size: 17px;
+    /*font-size: 17px;*/
 }
 
 /* Page level styles*/
